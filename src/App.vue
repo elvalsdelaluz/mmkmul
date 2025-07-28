@@ -3,9 +3,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <nav class="navbar navbar-light bg-light">
+  <nav class="navbar navbar-base">
     <div class="container-fluid">
-      <a class="navbar-brand"><img src="./assets/images/logo.png" alt="Logo de compañia mmkmul"></a>
+      <a class="text-logo">mmkmul</a>
       <button class="config-button" @click="openConfig">
         <img src="./assets/images/configurar.png" alt="Configuración">
       </button>
@@ -26,5 +26,14 @@ import { RouterLink, RouterView } from 'vue-router'
   width: 24px;
   height: 24px;
   display: block; /* Elimina espacio inferior de imágenes inline */
+}
+
+.navbar-base {
+  background: var(--color-background);  
+}
+
+.text-logo {
+  font-size: 2rem;  
+  font-family: Comfortaa;
 }
 </style>
