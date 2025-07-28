@@ -23,8 +23,8 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .config-button img {
-  width: 24px;
-  height: 24px;
+  width: 2rem;
+  height: 2rem;
   display: block; /* Elimina espacio inferior de imágenes inline */
 }
 
