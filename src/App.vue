@@ -34,6 +34,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 .text-logo {
   font-size: 2rem;  
-  font-family: Comfortaa;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
 }
 </style>
