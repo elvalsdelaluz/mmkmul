@@ -13,17 +13,12 @@ const path = new URL(`../assets/images/${props.myprop}.svg`, import.meta.url).hr
 </template>
 
 <style>
-.config-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
+.config-button img[alt="adelantar"] {
+  width: 2.6rem;
+  height: 2.6rem;
 }
-
-.config-button img {
-  width: 2rem;
-  height: 2rem;
-  display: block; /* Elimina espacio inferior de imágenes inline */
+.config-button img[alt="rebobinar"] {
+  width: 2.6rem;
+  height: 2.6rem;
 }
 </style>

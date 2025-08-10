@@ -1,7 +1,7 @@
 <script setup>
 import ControlsButton from './ControlsButton.vue'
 
-const name_images = ["adelantar", "iniciar", "pausar", "rebobinar"]
+const name_images = ["adelantar","iniciar", "pausar", "rebobinar"]
 </script>
 
 <template>
@@ -20,7 +20,7 @@ const name_images = ["adelantar", "iniciar", "pausar", "rebobinar"]
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.7rem;
   margin-top: 1rem;
 }
 

@@ -19,20 +19,6 @@ import Controls from './components/Controls.vue'
 </template>
 
 <style>
-.config-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
-}
-
-.config-button img {
-  width: 2rem;
-  height: 2rem;
-  display: block; /* Elimina espacio inferior de imágenes inline */
-}
-
 .navbar-base {
   background: var(--color-background);  
   padding-top: 0.9rem;

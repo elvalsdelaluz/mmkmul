@@ -4,3 +4,17 @@ a {
     text-decoration: none;
     color: var(--color-text);
 }
+
+.config-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.config-button img {
+  width: 2rem;
+  height: 2rem;
+  display: block; /* Elimina espacio inferior de imágenes inline */
+}
