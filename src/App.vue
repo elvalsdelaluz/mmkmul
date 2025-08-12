@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Controls from './components/Controls.vue'
+import MatrixRow from './components/MatrixRow.vue';
 
 </script>
 
@@ -13,7 +14,7 @@ import Controls from './components/Controls.vue'
       </button>
     </div>
   </nav>
-  
+  <MatrixRow />
   <Controls />
 
 </template>
